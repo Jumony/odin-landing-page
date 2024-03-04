@@ -83,7 +83,7 @@ body {
 
 .info {
     padding:16px;
-    background-color: pink;
+
 }
 
 .info-block {
@@ -117,5 +117,72 @@ body {
     display:flex;
     width: 100vh;
     max-width: 100%;
+    border: 3px solid #3882F6;
+    border-radius: 4px;
+}
 
+.description {
+    color: #E5E7EB;
+    text-align: center;
+}
+
+/* QUOTE */
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    padding:150px 100px;
+    background-color: #E5E7EB;
+}
+
+.quote-block {
+    display:flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* ADVERTISEMENT */
+.advertisement-section {
+    padding:100px 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertisement-block {
+    display:flex;
+    padding:50px 100px;
+    background-color: #3882F6;
+    justify-content: space-between;
+    gap:100px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.advertisement-heading {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+}
+
+.signup-message {
+    color: #E5E7EB
+}
+
+.advertisement-signup-button {
+    background-color: #3882F6;
+    border: 2px solid #E5E7EB;
+    padding:10px 40px;
+    color:#E5E7EB;
+    font-weight: bold;
+    border-radius: 4px;
 }
